@@ -81,24 +81,29 @@ body {
   #box > div {
     border: 1px solid lightgray;
     text-align: center;
+    line-height: 2px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 4px 0px;
   }
   #box > div h3 {
     color: teal;
     font-size: 30px;
   }
+  #box > div h4{
+    color: grey;
+
+  }
 
   #feature {
     margin-top: 150px;
     width: 100%;
-    border: 1px solid;
+    border: 0px solid;
     height: 500px;
     box-sizing: inherit;
     display: grid;
     grid-template-columns: 800px 50px 700px;
   }
   #feature div {
-    border: 1px solid red;
+    border: 0px solid red;
     width: 90%;
   }
   #feature > div h3 {
