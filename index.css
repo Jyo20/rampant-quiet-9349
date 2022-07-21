@@ -3,29 +3,41 @@ body {
       sans-serif;
   }
 
-  #header {
-    width: 100%;
-    height: 60px;
-    border: 0px solid;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    text-align: center;
-  }
-
-  #header > div {
-    border: 0px solid red;
+  .header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
     height: 50px;
     width: 100%;
-    padding-top: 20px;
-  }
-  #header img {
-    width: 80%;
-    height: 100%;
-  }
-  #header > div > a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
   }
+  
+  .header div>a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+     }
+     .header >div> img{
+      border: 0px solid;
+      width: 45%;
+      height:25px;
+      margin-left: 400px;
+     }
+     #login{
+      margin-left: 300px;
+      
+      }
+  
+#search{
+  text-align: center;
+  width:150px;
+  border-radius: 10px;
+  border-color: lightgrey
+  ;
+  
+  
+}
 
   #container {
     border: 1px solid lightgray;
@@ -59,10 +71,10 @@ body {
     margin: auto;
     font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
       sans-serif;
-
-    text-align: center;
+      text-align: center;
+      font-size: 15px;
+      font-size:smaller;
     line-height: 4.2rem;
-
     color: rgb(47, 48, 49);
   }
 
@@ -74,7 +86,7 @@ body {
   #box {
     width: 90%;
     margin: auto;
-    height: 100px;
+    height: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -85,16 +97,19 @@ body {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 4px 0px;
   }
   #box > div h3 {
-    color: teal;
-    font-size: 30px;
+  margin-top: 45px;
+    color: rgb(28, 114, 114);
+    font-size: 40px;
+    font-weight: lighter;
   }
   #box > div h4{
     color: grey;
+    font-weight: lighter;
 
   }
 
   #feature {
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100%;
     border: 0px solid;
     height: 500px;
@@ -106,22 +121,26 @@ body {
     border: 0px solid red;
     width: 90%;
   }
-  #feature > div h3 {
+  #feature > div  {
     color: grey;
   }
+  
   #feature > div img {
     width: 100%;
     height: 400px;
   }
+  
   hr {
     margin-right: 100px;
     height: 100%;
   }
-  #feature > div > div {
+  #feature > div>img+div {
     width: 100%;
-    background-color: #037362;
+    background-color: teal;
     height: 1.2rem;
     margin: auto;
+    border: 0px solid;
+    margin: 0;
   }
   #feature > div > div + h3 {
     color: black;
@@ -132,3 +151,105 @@ body {
     font-size: 20px;
     color: rgb(41, 41, 41);
   }
+
+  #recommand div{
+    display: grid;
+    grid-template-columns:200px 500px;
+     max-width: 48%;
+      margin: 30px 0px 0px 20px;
+  }
+  #recommand>div>div img{
+    width: 140px; 
+    height: 100px;
+     margin-right: 10px;
+   
+  }
+  
+    #recommand>div>div p{
+      width: 100%;
+     font-size: 12px;
+    }
+    .divbar{
+      display: flex;
+      flex-direction: row;
+    }
+    .divbar div{
+      border: 0px solid;
+      height: 50px;
+    }
+    button{
+      margin: 5px;
+       border: none;
+       cursor: pointer;
+      background-color: white;
+    }
+    button:hover{
+      text-decoration: underline;
+    }
+    
+    
+    .line{
+    background-color: lightgrey;
+    height: 1px;
+    width: 100%;
+    margin: 5px 0px;
+    margin-top: 230px;
+    
+    }
+    
+    .box2{
+      padding: 50px;
+      border: 0px solid;
+      width: 90%;
+      margin: auto;
+      height: 300px;
+      display: grid;
+      grid-template-columns:650px 2px 600px;
+      gap: 40px;
+      font-size: 20px;
+      font-family: "Georgia", Times, "Times New Roman", serif;
+      
+    }
+    .box2>div{
+      width: 100%;
+      height: 300px;
+      border: 0px solid red;
+      }
+      .box2>hr{
+        border: 3px solid darkgreen;
+        background-color: darkgreen;
+        height: 200px;
+      }
+      .box2>div>img{
+        width: 100%;
+        height: 300px;
+      }
+      
+      .box2 div>h2{
+        font-family: "Georgia", Times, "Times New Roman", serif;
+        font-size: 25px;
+      color: #282828;
+  }
+  .box2 div a{
+    color: blue;
+    text-decoration: none;
+  }
+  .sliding {
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+  }
+  
+  #left-arrow{
+    top: 20px;
+    margin-left: 600px;
+    font: 3em sans-serif;
+    color: blue;
+  }
+
+    
+    
+  

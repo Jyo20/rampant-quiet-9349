@@ -6,29 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kickstarter</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.js">
+    
+    
   </head>
   <body>
-    <div id="header">
+    <div class="header">
       <div>
-        <a href="">Discover</a>
-      </div>
-      <div><a href="">Start a Project</a></div>
-      <div>
-        <img
-          src="https://logos-world.net/wp-content/uploads/2020/10/Kickstarter-Logo.png"
-        />
+        <a href="/discover">Discover</a>
+        <a href="/start">Start A Project</a>
       </div>
       <div>
-        <button type="search">Search</button>
+              <img src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f" alt="">
+            </div>
+            <div id="login">
+              
+              <i class="fa-thin fa-magnifying-glass">Search</i>
+              <a href="login.html">Log in</a>
+            </div>
       </div>
-      <div>
-        <a href="">Log in</a>
-      </div>
+      
     </div>
 
     <div id="container">
       <ul>
-        <li><a href="">Arts</a></li>
+        <li><a href="art.html">Arts</a></li>
         <li><a href="">Comics & Illustration</a></li>
         <li><a href="">Design & Tech</a></li>
         <li><a href="">Film</a></li>
@@ -60,11 +62,12 @@
     <div id="feature">
       <div>
         <h3>FEATURED PROJECT</h3>
-        <img
+        <a href="featureproject.html"><img
           src="https://ksr-ugc.imgix.net/assets/037/247/334/d0d6c8d73d9cd3d536b1ac01f6e35b9a_original.png?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1652127745&auto=format&frame=1&q=92&s=c3cd577834ea78f7b82bf41c44f09a1a"
           alt=""
-        />
+        /></a>
         <div></div>
+
         <h3>Bi Visibility: Still Bi</h3>
         <p>
           A 96-page, genre-spanning graphic novel anthology that collects 16
@@ -73,9 +76,264 @@
         <h5>By Kathryn Calamia</h5>
       </div>
       <hr />
-      <div>
-        <h3>RECOMMENDED FOR YOU</h3>
+      <div style="display: flex; max-width: 48%; margin: 30px 0px 0px 20px">
+        <div>
+          <h6
+            style="
+              margin-top: 20px;
+              font-weight: lighter;
+              font-size: 25px;
+              color: gray;
+              font-family: 'Maison Neue Book', 'Helvetica Neue', 'Helvetica', 'Arial',
+      'sans-serif';
+            "
+          >
+            Recommand For You
+          </h6>
+          <div>
+            <div>
+              <div
+                style="
+                  display: grid;
+                  grid-template-columns: 140px 300px;
+                  gap: 20px;
+                  flex-direction: row;
+                  width: 200%;
+                  border: 0px solid red;
+                  cursor: pointer;
+                  
+                "
+              >
+                <div >
+                  <a href="https://www.kickstarter.com/projects/tsunagujapancrafts/kyo-karakami-made-in-kyoto?ref=section-homepage-view-more-discovery-p1">
+                  <img
+                    src="https://ksr-ugc.imgix.net/assets/037/822/380/dec2e93d848e7634c3982e5782e49f3a_original.jpeg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1656677989&auto=format&frame=1&q=92&s=e79d22b81b64a87de7a7a3d5fc3679cf"
+                    style="width: 140px; height: 100px; margin-right: 10px"
+                  />
+                </a>
+                </div>
+                <div
+                  style="
+                    width: 100%;
+                    display: grid;
+                    border: 0px solid;
+                    flex-direction: column;
+                    margin-right: 150px;
+                    line-height: 20px;
+                    color: black;
+                    cursor: pointer;
+                  "
+                >
+                  <div style="text-decoration: none;"><a href="https://www.kickstarter.com/projects/tsunagujapancrafts/kyo-karakami-made-in-kyoto?ref=section-homepage-view-more-discovery-p1" style="text-decoration: none; color:black;">Kyo Karakami - Made in Kyoto</a></div> 
+                  <div style="color: teal; font-weight: bold">465% funded</div>
+                  <div>By tsunagu Japan Crafts</div>
+                </div>
+              </div>
+            </div>
+            <br />
+
+            <div
+              style="
+                background-color: grey;
+                height: 1px;
+                width: 200%;
+                margin: 5px 0px;
+              "
+            ></div>
+          </div>
+          <div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 140px 300px;
+                gap: 20px;
+                flex-direction: row;
+                width: 200%;
+                border: 0px solid red;
+                margin-top: 20px;
+                cursor: pointer;
+              "
+            >
+              <div>
+                <a href="https://www.kickstarter.com/projects/rosspayton/ludonarrative-dissidents-podcast-season-2?ref=section-homepage-view-more-discovery-p1">
+                <img
+                  src="https://ksr-ugc.imgix.net/assets/037/834/242/44ef4176bb125841b54eadca85847823_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1656786271&auto=format&frame=1&q=92&s=bd934c8f4e3859e47dd992b0d5a44b8f"
+                  style="width: 140px; height: 100px; margin-right: 10px"
+                />
+              </a>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  display: grid;
+                  border: 0px solid;
+                  flex-direction: column;
+                  margin-right: 150px;
+                  line-height: 20px;
+                  color: black;
+                "
+              >
+                <div><a href="https://www.kickstarter.com/projects/rosspayton/ludonarrative-dissidents-podcast-season-2?ref=section-homepage-view-more-discovery-p1" style="text-decoration: none; color:black;">Kyo Karakami - Made in Kyoto</a> </div>
+                <div style="color: teal; font-weight: bold">465% funded</div>
+                <div>By tsunagu Japan Crafts</div>
+                <div id="symbol">
+                  <i class="fa-thin fa-bookmark"></i>
+                  <i class="fa-thin fa-thumbs-up"></i>
+                  <i class="fa-thin fa-thumbs-down"></i>
+                </div>
+                
+              </div>
+            </div>
+            <br />
+            <div
+              style="
+                background-color: grey;
+                height: 1px;
+                width: 200%;
+                margin: 5px 0px;
+              "
+            ></div>
+          </div>
+          <div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 140px 300px;
+                gap: 20px;
+                flex-direction: row;
+                width: 200%;
+                border: 0px solid red;
+                margin-top: 20px;
+                cursor: pointer;
+                
+              "
+            >
+              <div>
+                <a href="https://www.kickstarter.com/projects/benyehuda/other-covenants-alternate-histories-of-the-jewish-people?ref=section-homepage-view-more-discovery-p1">
+                <img
+                  src="https://ksr-ugc.imgix.net/assets/036/713/082/40c1594d74a3153c0305e043d04291cd_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1024&h=576&fit=crop&v=1647725174&auto=format&frame=1&q=92&s=052d0ea92fe685753b3ed3fe17241f54"
+                  style="width: 140px; height: 100px; margin-right: 10px"
+                />
+              </a>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  display: grid;
+                  border: 0px solid;
+                  flex-direction: column;
+                  margin-right: 150px;
+                  line-height: 20px;
+                  color: black;
+                  ;
+                "
+              >
+                <div><a href="https://www.kickstarter.com/projects/benyehuda/other-covenants-alternate-histories-of-the-jewish-people?ref=section-homepage-view-more-discovery-p1" style="text-decoration: none; color:black;">Kyo Karakami - Made in Kyoto</a> </div>
+                <div style="color: teal; font-weight: bold">465% funded</div>
+                <div>By tsunagu Japan Crafts</div>
+              </div>
+              <div
+              style="
+                background-color: grey;
+                height: 1px;
+                width: 400%;
+                margin: 5px 0px;
+              "
+            ></div>
+          </div>
+          <div style="text-align: end; margin-left: 350px; height: 20px;">
+            <div style="text-align: right;">
+              <button > &LessLess; </button>
+              <button style="color:blue;"> 1</button>
+              <button style="color:blue;">2</button>
+              <button style="color:blue;">3</button>
+              <button> &GreaterGreater;</button>
+
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
       </div>
+      
+    </div>
+      <div class="line"></div>
+      <div class="box2">
+        
+          <div>
+            <img src="https://goodman-games.com/wp-content/uploads/2022/07/Zinequest4_header-1024x439.jpg" alt="">
+          </div>
+          <hr>
+          <div>
+            <h2>Bring an RPG zine to life</h2>
+            <p>Our annual Zine Quest prompt is back to bestow creators with a valiant mission: Bring your RPG to life with maps, adventures, monsters, comics, articles, and interviews! To participate, creators must launch a project for an unbound, folded, stapled, or saddle-stitched RPG zine.</p>
+            <a href="">learn more</a>
+          </div>
+          
+      </div>
+      <hr>
+      <div>
+        <h4>FRESH FAVORITES</h4>
+      </div>
+      <div class="sliding" onclick="show()">
+        <div >
+          <button id="left-arrow" onclick="moveleft()">&lt;</button>
+        </div>
+        <div >
+          <img id="cd1" src="https://ksr-ugc.imgix.net/assets/037/960/368/88ef9baf21f8a907ebb69d17dee29047_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1657836542&auto=format&frame=1&q=92&s=1abde6a627032f2228fc124bbf2c0e70" alt="">
+          <h5>Skies of Fire: Collected Edition</h5>
+          <p>Deluxe hardback editions of Vincenzo Ferriero and Ray Chou's dieselpunk airship adventure comic, in its entirety for the first time.</p>
+          <h6>By Ray Chou</h6>
+        </div>
+        <div id="cd2">
+          <img src="https://ksr-ugc.imgix.net/assets/037/960/368/88ef9baf21f8a907ebb69d17dee29047_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1657836542&auto=format&frame=1&q=92&s=1abde6a627032f2228fc124bbf2c0e70" id="cd2">
+          <h5>Skies of Fire: Collected Edition</h5>
+          <p>Deluxe hardback editions of Vincenzo Ferriero and Ray Chou's dieselpunk airship adventure comic, in its entirety for the first time.</p>
+          <h6>By Ray Chou</h6>
+        </div>
+        <div id="cd3">
+          <img src="https://ksr-ugc.imgix.net/assets/037/960/368/88ef9baf21f8a907ebb69d17dee29047_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1657836542&auto=format&frame=1&q=92&s=1abde6a627032f2228fc124bbf2c0e70" id="cd3">
+          <h5>Skies of Fire: Collected Edition</h5>
+          <p>Deluxe hardback editions of Vincenzo Ferriero and Ray Chou's dieselpunk airship adventure comic, in its entirety for the first time.</p>
+          <h6>By Ray Chou</h6>
+        </div>
+        <div id="cd4">
+          <img src="https://ksr-ugc.imgix.net/assets/037/960/368/88ef9baf21f8a907ebb69d17dee29047_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1657836542&auto=format&frame=1&q=92&s=1abde6a627032f2228fc124bbf2c0e70" id="cd5">
+          <h5>Skies of Fire: Collected Edition</h5>
+          <p>Deluxe hardback editions of Vincenzo Ferriero and Ray Chou's dieselpunk airship adventure comic, in its entirety for the first time.</p>
+          <h6>By Ray Chou</h6>
+        </div>
+        <div id="cd5">
+          <img src="https://ksr-ugc.imgix.net/assets/037/960/368/88ef9baf21f8a907ebb69d17dee29047_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1657836542&auto=format&frame=1&q=92&s=1abde6a627032f2228fc124bbf2c0e70" id="cd6">
+          <h5>Skies of Fire: Collected Edition</h5>
+          <p>Deluxe hardback editions of Vincenzo Ferriero and Ray Chou's dieselpunk airship adventure comic, in its entirety for the first time.</p>
+          <h6>By Ray Chou</h6>
+        </div>
+        <div id="cd6">
+          <img src="https://ksr-ugc.imgix.net/assets/037/960/368/88ef9baf21f8a907ebb69d17dee29047_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1657836542&auto=format&frame=1&q=92&s=1abde6a627032f2228fc124bbf2c0e70" id="cd7">
+          <h5>Skies of Fire: Collected Edition</h5>
+          <p>Deluxe hardback editions of Vincenzo Ferriero and Ray Chou's dieselpunk airship adventure comic, in its entirety for the first time.</p>
+          <h6>By Ray Chou</h6>
+        </div>
+        <button id="right-arrow">&gt;</button>
+      </div>
+      
+      <div style="background-color:grey;height:1px;width:400%;margin:5px 0px; margin-top: 70px;"></div>
+      <div class="box2">
+        
+        <div>
+          <img src="https://ksr-ugc.imgix.net/assets/037/636/897/9c7333339f65acf38a139d1f514ca7d3_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1655182845&gif-q=50&lossless=true&s=197a22f5380b4b364462189008114b97" alt="">
+        </div>
+        <hr>
+        <div>
+          <h2>Meet Kickstarter’s Community Advisory Council</h2>
+          <p>
+            The Kickstarter Community Advisory Council will offer insight across a range of creative disciplines and help us identify issues, questions, and opportunities we may not be able to see on our own.
+            
+            </p>
+          <a href="">Meet the Council</a>
+        </div>
+        
     </div>
   </body>
 </html>
