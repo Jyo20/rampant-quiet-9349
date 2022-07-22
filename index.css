@@ -108,12 +108,13 @@ body {
 
   #feature {
     margin-top: 50px;
-    width: 100%;
+    width: 90%;
     border: 0px solid;
     height: 500px;
     box-sizing: inherit;
     display: grid;
-    grid-template-columns: 800px 50px 700px;
+    grid-template-columns: 700px 1px 700px;
+    gap: 10px;
   }
   #feature div {
     border: 0px solid red;
@@ -129,6 +130,7 @@ body {
   }
   
   hr {
+    width: 100%;
     margin-right: 100px;
     height: 100%;
   }
@@ -152,7 +154,7 @@ body {
 
   #recommand div{
     display: grid;
-    grid-template-columns:200px 500px;
+    grid-template-columns:150px 500px;
      max-width: 48%;
       margin: 30px 0px 0px 20px;
   }
@@ -202,7 +204,7 @@ body {
       margin: auto;
       height: 250px;
       display: grid;
-      grid-template-columns:650px 2px 600px;
+      grid-template-columns:650px 2px 500px;
       gap: 40px;
       font-size: 20px;
       font-family: "Georgia", Times, "Times New Roman", serif;
@@ -294,6 +296,7 @@ body {
     vertical-align: baseline;
     line-height: 1.5;
     color:black;
+    margin-bottom: 50px;
   }
   .footer>div{
     padding-left: 12px;
@@ -353,3 +356,68 @@ body {
     
   }
  
+
+.icon{
+  margin-top:150px;
+  width: 900%;
+  margin: auto;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  gap: 20px;
+}
+
+.icon>div{
+  border: 0px solid red;
+  width: 40px;
+}
+.icon>div img{
+  width: 100%;
+}
+.icon>div:nth-child(2){
+  margin-top: 10px;
+  width: 600px;
+}
+#language{
+  width: 120px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: center;
+}
+#country{
+  margin-left: 90px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+
+}
+.privacy{
+  border: 0px solid;
+  display: flex;
+  flex-direction:column;
+}
+.privacy ul{
+  display: flex;
+  flex-direction:row;
+  gap: 30px;
+  list-style: none;
+
+}
+.privacy >ul>li a{
+  font-size: 12px;
+  text-decoration: none;
+  
+}
+.privacy >ul>li:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
