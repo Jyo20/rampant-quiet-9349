@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="login.js">
+  </head>
+  <body>
+    <div class="header">
+        <div>
+          <a href="/discover">Discover</a>
+          <a href="/start">Start A Project</a>
+        </div>
+        <div>
+            <a href="index.html">
+            <img src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f">
+        </a>
+        </div>
+       
+                
+              <div id="login">
+                
+                <i class="fa-thin fa-magnifying-glass">Search</i>
+                <a href="login.html">Log in</a>
+              </div>
+        </div>
+        
+      </div>
+    <div class="login">
+      <form name="form-login">
+        <h1>Log in</h1>
+
+        <label for="name">Email</label>
+        <input type="email" id="name" placeholder="Username" required />
+
+        <label for="pw">Password</label>
+        <input type="password" id="pw" placeholder="Password" required />
+        <a href="password.html">Forgot your password?</a>
+        <input
+          id="rgstr_btn"
+          type="submit"
+          value="Log in"
+          onclick="store()"
+        />
+        <div id="remember">
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                   style="display: inline-block;">
+            <label>Remember me</label>
+        </div>
+        <p>New to Kickstarter?<a href="signup.html">Sign up</a></p>
+      </form>
+    </div>
+      </form>
+    </div>
+  </body>
+</html>
