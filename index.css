@@ -1,0 +1,423 @@
+body {
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+  }
+
+  .header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header div>a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+     }
+     .header >div> img{
+      border: 0px solid;
+      width: 45%;
+      height:25px;
+      margin-left: 400px;
+     }
+     #login{
+      margin-left: 300px;
+      
+      }
+  
+#search{
+  text-align: center;
+  width:150px;
+  border-radius: 10px;
+  border-color: lightgrey
+  ;
+}
+
+  #container {
+    border: 1px solid lightgray;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: inherit;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  #container ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 1.2rem;
+    border: 0px solid darkcyan;
+    padding-top: 10px;
+  }
+  #container ul li {
+    list-style-type: none;
+  }
+  li a {
+    text-decoration: none;
+    color: grey;
+  }
+  #heading {
+    border: 0px solid red;
+    width: 90%;
+    margin: auto;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+      text-align: center;
+      font-size: 15px;
+      font-size:smaller;
+    line-height: 4.2rem;
+    color: rgb(47, 48, 49);
+  }
+
+  #heading > h2 {
+    color: gray;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  #box {
+    width: 90%;
+    margin: auto;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #box > div {
+    border: 1px solid lightgray;
+    text-align: center;
+    line-height: 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 4px 0px;
+  }
+  #box > div h3 {
+  margin-top: 45px;
+    color: rgb(28, 114, 114);
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  #box > div h4{
+    color: grey;
+    font-weight: lighter;
+
+  }
+
+  #feature {
+    margin-top: 50px;
+    width: 90%;
+    border: 0px solid;
+    height: 500px;
+    box-sizing: inherit;
+    display: grid;
+    grid-template-columns: 700px 1px 700px;
+    gap: 10px;
+  }
+  #feature div {
+    border: 0px solid red;
+    width: 90%;
+  }
+  #feature > div  {
+    color: grey;
+  }
+  
+  #feature > div img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  hr {
+    width: 100%;
+    margin-right: 100px;
+    height: 100%;
+  }
+  #feature > div>img+div {
+    width: 100%;
+    background-color: teal;
+    height: 1.2rem;
+    margin: auto;
+    border: 0px solid;
+    margin: 0;
+  }
+  #feature > div > div + h3 {
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  #feature p {
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+  }
+
+  #recommand div{
+    display: grid;
+    grid-template-columns:150px 500px;
+     max-width: 48%;
+      margin: 30px 0px 0px 20px;
+  }
+  #recommand>div>div img{
+    width: 140px; 
+    height: 100px;
+     margin-right: 10px;
+   
+  }
+  
+    #recommand>div>div p{
+      width: 100%;
+     font-size: 12px;
+    }
+    .divbar{
+      display: flex;
+      flex-direction: row;
+    }
+    .divbar div{
+      border: 0px solid;
+      height: 50px;
+    }
+    button{
+      margin: 5px;
+       border: none;
+       cursor: pointer;
+      background-color: white;
+    }
+    button:hover{
+      text-decoration: underline;
+    }
+    
+    
+    .line{
+    background-color: lightgrey;
+    height: 1px;
+    width: 100%;
+    margin: 5px 0px;
+    margin-top: 230px;
+    
+    }
+    
+    .box2{
+      padding: 50px;
+      border: 0px solid;
+      width: 90%;
+      margin: auto;
+      height: 250px;
+      display: grid;
+      grid-template-columns:650px 2px 500px;
+      gap: 40px;
+      font-size: 20px;
+      font-family: "Georgia", Times, "Times New Roman", serif;
+      
+    }
+    .box2>div{
+      width: 100%;
+      height: 300px;
+      border: 0px solid red;
+      }
+      .box2>div a{
+  
+          width: 100%;
+          height: 300px;
+      }
+      .box2>hr{
+        border: 3px solid darkgreen;
+        background-color: darkgreen;
+        height: 150px;
+      }
+      .box2>div> a>img{
+        width: 100%;
+        height: 300px;
+      }
+      
+      .box2 div>h2{
+        font-family: "Georgia", Times, "Times New Roman", serif;
+        font-size: 25px;
+      color: #282828;
+  }
+  .box2 div a{
+    color: blue;
+    text-decoration: none;
+  }
+  .sliding {
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+  }
+  
+  #left-arrow{
+    top: 20px;
+    margin-left: 600px;
+    font: 3em sans-serif;
+    color: blue;
+  }
+
+    
+    
+  #footer{
+    border: 1px solid lightgray;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    box-sizing: inherit;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+  }
+  #footer ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 1.2rem;
+    border: 0px solid darkcyan;
+    padding-top: 10px;
+  }
+
+  #footer ul li {
+    list-style-type: none;
+  }
+  li a {
+    text-decoration: none;
+    color: grey;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-left: -12px;
+    margin-right: -12px;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+    vertical-align: baseline;
+    line-height: 1.5;
+    color:black;
+    margin-bottom: 50px;
+  }
+  .footer>div{
+    padding-left: 12px;
+    padding-right: 12px;
+    vertical-align: top;
+    float: left;
+    position: relative;
+    width: calc(3/12 * 100%) !important;
+    line-height: 1.5;
+    
+  
+  }
+  section{
+    display: block;
+    
+  
+  }
+  
+  section h3{
+    margin-left: 40px;
+  }
+  section>ul{
+    font-weight: 100;
+    margin-bottom: 1.2rem;
+    list-style: none;
+
+  }
+  section ul>li a{
+    color: black;
+  }
+  #sliding{
+    
+    width: 90%;
+    border: 1px solid;
+    display: flex;
+    gap: 20px;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  #sliding img{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid green;
+  }
+  #sliding>div>h3{
+    color:black;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .btn{
+    flex-direction: column;
+    border: 1px solid;
+  }
+  .btn>button{
+    color: blue;
+    
+  }
+ 
+
+.icon{
+  margin-top:150px;
+  width: 900%;
+  margin: auto;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  gap: 20px;
+}
+
+.icon>div{
+  border: 0px solid red;
+  width: 40px;
+}
+.icon>div img{
+  width: 100%;
+}
+.icon>div:nth-child(2){
+  margin-top: 10px;
+  width: 600px;
+}
+#language{
+  width: 120px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: center;
+}
+#country{
+  margin-left: 90px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+
+}
+.privacy{
+  border: 0px solid;
+  display: flex;
+  flex-direction:column;
+}
+.privacy ul{
+  display: flex;
+  flex-direction:row;
+  gap: 30px;
+  list-style: none;
+
+}
+.privacy >ul>li a{
+  font-size: 12px;
+  text-decoration: none;
+  
+}
+.privacy >ul>li:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="login.js" />
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <a href="/discover">Discover</a>
+        <a href="/start">Start A Project</a>
+      </div>
+      <div>
+          <a href="index.html">
+          <img src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f">
+      </a>
+      </div>
+     
+              
+            <div id="login">
+              
+              <i class="fa-thin fa-magnifying-glass">Search</i>
+              <a href="login.html">Log in</a>
+            </div>
+      </div>
+      
+    </div>
+    <div class="login">
+      <form name="form-login">
+        <h1>REGISTER</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="User name" required />
+
+        <label for="name">Email</label>
+        <input type="email" id="name" placeholder="User Email" required />
+
+        <label for="pw">Password</label>
+        <input type="password" id="pw" placeholder="Password" required />
+
+        <ul class="helper-text">
+          <li class="length">Must be at least 8 characters long.</li>
+          <li class="lowercase">Must contain a lowercase letter.</li>
+          <li class="uppercase">Must contain an uppercase letter.</li>
+          <li class="special">Must contain a number or special character.</li>
+        </ul>
+        <input
+          id="rgstr_btn"
+          type="submit"
+          value="Create account"
+          onclick="store()"
+        />
+      </form>
+    </div>
+  </body>
+</html>
