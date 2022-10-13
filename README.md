@@ -28,7 +28,7 @@ JavaScript
 # Installation :
 Clone the App
 
-  git clone 
+  git clone https://github.com/Jyo20/rampant-quiet-9349.git
   
 # Features :
 User can navigate between different pages
