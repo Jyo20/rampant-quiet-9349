@@ -2,6 +2,9 @@
 
 A clone of Kickstarter - crowdfunding web application where a user can post his idea and get funding from different individuals.
 
+# Demo 
+https://eclectic-dieffenbachia-b88953.netlify.app/
+
 # Screenshots :
 
 # Home Page :
